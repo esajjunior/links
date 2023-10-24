@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Link</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> <!-- Fonte Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -27,7 +28,7 @@
             text-align: center;
         }
 
-        a {
+        .container a {
             display: block;
             background-color: #3498db;
             color: #fff;
@@ -39,7 +40,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        a:hover {
+        .container a:hover {
             background-color: #2980b9;
             transform: translateY(-3px);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -78,11 +79,10 @@
 
 <body>
     <div class="container">
-   <div class="profile-pic">
-    <img src="https://github.com/esajjunior/links/blob/main/LOGO.jpeg?raw=true".jpeg alt="Foto do perfil">
-</div>
-
+        <div class="profile-pic">
+            <img src="https://github.com/esajjunior/links/blob/main/LOGO.jpeg?raw=true" alt="Foto do perfil">
         </div>
+
         <h1>GESTÃO DE OBRAS</h1>
         <a href="https://engenhariaobras.weebly.com/">APRESENTAÇÃO</a>
         <a href="https://forms.gle/p1LQ3XPBERKjdoay5">PEDIDO DE MATERIAL</a>
@@ -92,6 +92,7 @@
             &copy; 2023 OBRAS LZK - Todos os direitos reservados.
         </footer>
     </div>
+
     <script>
         function checkPassword(url) {
             const password = prompt("Por favor, insira a senha:");
